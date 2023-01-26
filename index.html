@@ -7,12 +7,12 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=1280 height=720 style="width: 1280px; height: 720px; background: #231F20"></canvas>
-    <script src="ag1/Build/build.loader.js"></script>
+    <script src="/ag1/Build/build.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "ag1/Build/build.data",
-        frameworkUrl: "ag1/Build/build.framework.js",
-        codeUrl: "ag1/Build/build.wasm",
+        dataUrl: "/ag1/Build/build.data",
+        frameworkUrl: "/ag1/Build/build.framework.js",
+        codeUrl: "/ag1/Build/build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "AI_Novell",
